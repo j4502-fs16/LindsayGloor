@@ -9,7 +9,7 @@ p {
 
 h1 {
   color: #00bfff;
-  font-family: Georgia, "Times New Roman," serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-size:3em;
   font-style:italic;
   text-align:center;
@@ -55,6 +55,10 @@ ul {
   margin: auto;
   }
 
-#links {
-  margin:auto;
-}
+  #nav {
+    padding: 0;
+    }
+
+  #nav li{
+    float:left;
+    }
