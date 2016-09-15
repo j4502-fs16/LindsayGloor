@@ -32,18 +32,14 @@ a:active {
   text-decoration: none;
   }
 
-/*
+
 img {
   border: none;
   }
-*/
 
-#beach{
-border-top: 50px pink;
-
+#container {
+  background-color: "light pink";
 }
-
-
 
 
 ul {
