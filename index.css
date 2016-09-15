@@ -4,6 +4,7 @@ p {
    font-size:0.8em;
    font-style:bold;
    text-align:left;
+   margin:auto;
 }
 h1 {
   color: #00bfff;
@@ -11,30 +12,36 @@ h1 {
   font-size:2em;
   font-style:italic;
   text-align:left;
+  margin:auto;
 }
 a:link {
   color: #666666;
   text-decoration:none;
+  margin:auto;
 }
 
 a:visited {
   color: purple;
   text-decoration:none;
+  margin:auto;
 }
 
 a:hover {
   color: #00bfff;
   text-decoration: none;
+  margin:auto;
   }
 
 a:active {
   color: black;
   text-decoration: none;
+  margin:auto;
   }
 
 
 img {
   border: none;
+  margin:auto;
   }
 
 #container{
@@ -45,4 +52,5 @@ img {
 
 ul {
   list-style-type: none;
+  margin:auto;
   }
