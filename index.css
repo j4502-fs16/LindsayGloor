@@ -2,7 +2,7 @@ p {
    color: #666666;
    font-family: Helvetica, Arial, sans-serif;
    font-size:0.8em;
-   font-style:bold;
+   font-weight: bold;
    text-align:center;
    margin: auto;
 }
@@ -11,7 +11,7 @@ h1 {
   color: #00bfff;
   font-family: Georgia, "Times New Roman", serif;
   font-size:3em;
-  font-style:italic;
+  font-weight:bold;
   text-align:center;
 }
 
