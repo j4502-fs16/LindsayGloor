@@ -65,3 +65,16 @@ ul {
     padding: 0;
     width: 25%;
     }
+
+    #nav a:link, a:visited {
+      display: block;
+      color: #666666;
+      background-color: #00bfff;
+      font-weight: bold;
+      text-align: center;
+      font-family: Helvetica, Arial, sans-serif;
+      }
+
+      #nav a:hover, a:active {
+        background-color: black;
+          }
