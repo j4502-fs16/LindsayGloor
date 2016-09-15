@@ -48,14 +48,11 @@ img {
 
 #container {
   background-color: #fff8dc;
-  margin: auto;
 }
 
 
 ul {
   list-style-type: none;
-  display: block;
-  margin: auto;
   }
 
   #nav {
