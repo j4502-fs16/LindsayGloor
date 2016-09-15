@@ -11,6 +11,23 @@ h1 {
   font-size:2em;
   font-style:italic;
   text-align:left;
-
-
 }
+a:link {
+  color: #666666;
+  text-decoration:none;
+}
+
+a:visited {
+  color: purple;
+  text-decoration:none;
+}
+
+a:hover {
+  color: #00bfff;
+  text-decoration: none;
+  }
+
+a:active {
+  color: black;
+  text-decoration: none;
+  }
