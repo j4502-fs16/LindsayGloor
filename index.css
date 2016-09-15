@@ -6,13 +6,13 @@ p {
    text-align:center;
    margin: auto;
 }
+
 h1 {
   color: #00bfff;
   font-family: Georgia, "Times New Roman," serif;
-  font-size:15px;
+  font-size:3em;
   font-style:italic;
   text-align:center;
-  margin: auto;
 }
 a:link {
   color: #666666;
