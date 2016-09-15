@@ -61,4 +61,7 @@ ul {
 
   #nav li{
     float:left;
+    margin: 0;
+    padding: 0;
+    width: 25%;
     }
