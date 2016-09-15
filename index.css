@@ -35,12 +35,14 @@ a:active {
 
 img {
   border: none;
-  display:block;
+  display:flex;
   margin:auto;
+  justify-content: center;
   }
 
 #container{
   background-color: #fff8dc;
+  justify-content: center;
 }
 
 
