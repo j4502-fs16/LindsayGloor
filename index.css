@@ -15,10 +15,11 @@ p {
    text-align: center;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
   color: #00bfff;
-  font-family: 'Merriweather Sans', sans-serif;
-  font-size:3em;
+  font-family: 'Merriweather Sans', Helvetica, Arial, sans-serif;
+  font-size:3rem;
+  margin-bottom: 1rem;
   font-weight:bold;
   text-align:center;
 }
