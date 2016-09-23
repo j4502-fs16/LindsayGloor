@@ -74,14 +74,14 @@ ul {
     #nav a:link, a:visited {
       display: block;
       color: #002738;
-      background-color: #aefffa;
+      background-color: #e3f7ff;
       font-weight: bold;
       text-align: center;
       font-family: 'Fjalla One', sans-serif;
     }
 
       #nav a:hover, a:active {
-        background-color: #56b2ac;
+        background-color: #007bb0;
           }
 
 .italic {
