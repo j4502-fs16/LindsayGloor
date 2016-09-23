@@ -77,8 +77,8 @@ ul {
       background-color: #00bfff;
       font-weight: bold;
       text-align: center;
-      font-family: Helvetica, Arial, sans-serif;
-      }
+      font-family: 'Fjalla One', sans-serif;
+    }
 
       #nav a:hover, a:active {
         background-color: black;
