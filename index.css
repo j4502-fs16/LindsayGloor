@@ -8,7 +8,7 @@ html {
 }
 
 p {
-   color: #666666;
+   color: #b2afae;
    font-family: 'Merriweather', Georgia, "Times New Roman", serif;
    font-size:1rem;
    line-height: 2rem;
@@ -16,7 +16,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #00bfff;
+  color: #56b2ac;
   font-family: 'Merriweather Sans', Helvetica, Arial, sans-serif;
   font-size:3rem;
   margin-bottom: 1rem;
@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a:link {
-  color: #666666;
+  color: #b2afae;
   text-decoration:none;
 }
 
@@ -52,7 +52,7 @@ img {
   }
 
 #container {
-  background-color: #fff8dc;
+  background-color: #ffebe1;
 }
 
 
@@ -73,15 +73,15 @@ ul {
 
     #nav a:link, a:visited {
       display: block;
-      color: #666666;
-      background-color: #00bfff;
+      color: #b2afae;
+      background-color: #aefffa;
       font-weight: bold;
       text-align: center;
       font-family: 'Fjalla One', sans-serif;
     }
 
       #nav a:hover, a:active {
-        background-color: black;
+        background-color: #56b2ac;
           }
 
 .italic {
