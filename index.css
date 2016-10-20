@@ -95,10 +95,3 @@ ul {
       flex-direction: column;
       justify-content: flex-start;
 }
-
-    #main {
-      display: flex;
-      width: 400px;
-      height: 250px;
-      justify-content:center;
-      }
