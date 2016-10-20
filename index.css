@@ -89,10 +89,25 @@ ul {
 }
 
 .sidebar {
+display: -webkit-flex;
 display: flex;
 flex-flow: column wrap;
+-webkit-flex-direction: column;
 width: 100%;
 height:100;
 justify-content: flex-start;
 align-content: flex-start;
+background-color: #e3f7ff;
+}
+
+.photo {
+  display: -webkit-flex;
+  display: flex;
+
+}
+
+.navigation {
+  display: -webkit-flex;
+  display: flex;
+
 }
