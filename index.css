@@ -89,12 +89,10 @@ ul {
 }
 
 .sidebar {
-display: -webkit-flex;
-display: inline-flex;
--webkit-flex-direction: column;
+display: flex;
 flex-direction: column;
 width: 100%;
 height:100;
 justify-content: flex-start;
-align-items: center;
+align-items: flex-start;
 }
