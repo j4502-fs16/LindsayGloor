@@ -87,11 +87,14 @@ ul {
 .italic {
   font-style: italic;
 }
-    #sidebar {
-      display: flex;
-      width: 400px;
-      height: 250px;
-      background-color: #e3f7ff;
-      flex-direction: column;
-      justify-content: flex-start;
+
+.sidebar {
+display: -webkit-flex;
+display: inline-flex;
+-webkit-flex-direction: column;
+flex-direction: column;
+width: 100%;
+height:100;
+justify-content: flex-start;
+align-items: center;
 }
