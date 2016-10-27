@@ -50,7 +50,7 @@ img {
   border: none;
   display: block;
   margin: auto;
-  width:50%;
+  width: 90%;
   }
 
 .container {
@@ -68,12 +68,7 @@ ul {
     flex-direction: column;
     }
 
-  .nav li{
-    float:left;
-    margin: 0;
-    padding: 0;
-    width: 25%;
-    }
+
 
     .nav a:link, a:visited {
       display: block;
@@ -86,7 +81,7 @@ ul {
 
       .nav a:hover, a:active {
         display: block;
-        background-color: #00bfff;
+        background-color: #007bb0;
           }
 
 .italic {
@@ -97,10 +92,16 @@ ul {
 display: flex;
 flex-flow: column wrap;
 width: 100%;
-height:100;
+/*height:100;*/
 justify-content: flex-start;
 align-content: flex-start;
 background-color: #e3f7ff;
+}
+
+.header {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .photo {
@@ -109,20 +110,28 @@ background-color: #e3f7ff;
 }
 
 @media (min-width: 800px) {
-	.container {
+  .container {
 		flex-flow: row wrap;
 	}
   .nav {
     flex-flow: row;
     justify-content: flex-end;
-    order: 1;
+    /*order: 1;*/
   }
   .sidebar {
     flex-direction: row;
-    order: 2;
+    width: 50%;
+    /*order: 2;*/
   }
   .photo {
     flex-direction: row;
-    order: 3;
+    width: 50%;
+    /*order: 3;*/
   }
+  .nav li{
+    float:left;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    }
 }
