@@ -2,9 +2,11 @@ html {
   font-size: 100%;
 }
 
-#container {
+.container {
   margin: auto;
   width: 95%;
+  display: flex;
+  flex-direction: column;
 }
 
 p {
@@ -51,7 +53,7 @@ img {
   width:50%;
   }
 
-#container {
+.container {
   background-color: #c2b3a3;
 }
 
@@ -60,18 +62,20 @@ ul {
   list-style-type: none;
   }
 
-  #nav {
+  .nav {
     padding: 0;
+    display: flex;
+    flex-direction: column;
     }
 
-  #nav li{
+  .nav li{
     float:left;
     margin: 0;
     padding: 0;
     width: 25%;
     }
 
-    #nav a:link, a:visited {
+    .nav a:link, a:visited {
       display: block;
       color: #002738;
       background-color: #e3f7ff;
@@ -80,8 +84,9 @@ ul {
       font-family: 'Fjalla One', sans-serif;
     }
 
-      #nav a:hover, a:active {
-        background-color: #007bb0;
+      .nav a:hover, a:active {
+        display: block;
+        background-color: #00bfff;
           }
 
 .italic {
@@ -89,10 +94,8 @@ ul {
 }
 
 .sidebar {
-display: -webkit-flex;
 display: flex;
 flex-flow: column wrap;
--webkit-flex-direction: column;
 width: 100%;
 height:100;
 justify-content: flex-start;
@@ -101,13 +104,25 @@ background-color: #e3f7ff;
 }
 
 .photo {
-  display: -webkit-flex;
   display: flex;
-
+  flex-direction: column;
 }
 
-.navigation {
-  display: -webkit-flex;
-  display: flex;
-
+@media (min-width: 800px) {
+	.container {
+		flex-flow: row wrap;
+	}
+  .nav {
+    flex-flow: row;
+    justify-content: flex-end;
+    order: 1;
+  }
+  .sidebar {
+    flex-direction: row;
+    order: 2;
+  }
+  .photo {
+    flex-direction: row;
+    order: 3;
+  }
 }
