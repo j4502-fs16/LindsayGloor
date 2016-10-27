@@ -109,6 +109,11 @@ background-color: #e3f7ff;
   flex-direction: column;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
 @media (min-width: 800px) {
   .container {
 		flex-flow: row wrap;
@@ -116,17 +121,14 @@ background-color: #e3f7ff;
   .nav {
     flex-flow: row;
     justify-content: flex-end;
-    /*order: 1;*/
   }
   .sidebar {
     flex-direction: row;
     width: 50%;
-    /*order: 2;*/
   }
   .photo {
     flex-direction: row;
     width: 50%;
-    /*order: 3;*/
   }
   .nav li{
     float:left;
@@ -134,4 +136,7 @@ background-color: #e3f7ff;
     padding: 0;
     width: 25%;
     }
+  .main {
+    flex-flow: wrap row;
+  }
 }
