@@ -159,4 +159,8 @@ img {
     flex-flow: wrap row;
   }
 
+  .menu-trigger {
+        display: none;
+    }
+
 }
